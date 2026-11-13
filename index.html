@@ -107,6 +107,18 @@
             .no-print { display: none !important; }
             .print-only { display: block !important; }
         }
+        /* Hide Netlify Badge & Drawer Widget */
+        [data-netlify-drawer],
+        netlify-drawer-widget,
+        #netlify-drawer,
+        .netlify-badge,
+        [class*="netlify-drawer"],
+        iframe[src*="netlify"] {
+            display: none !important;
+            visibility: hidden !important;
+            opacity: 0 !important;
+            pointer-events: none !important;
+        }
     </style>
 </head>
 <body class="flex flex-col min-h-screen text-slate-800 antialiased selection:bg-yellow-300">

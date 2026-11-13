@@ -34,3 +34,15 @@ Aplikasi media pembelajaran interaktif berbasis web untuk materi Rasio Matematik
 2. Seret (drag & drop) seluruh folder `petualanganRasio` ke browser.
 3. Website akan langsung aktif dalam hitungan detik dengan URL gratis Netlify!
 
+---
+
+## Cara Menghapus Badge / Watermark "Powered by Netlify"
+Badge tersebut otomatis disisipkan oleh fitur bawaan Netlify (*Netlify Drawer / Feedback Badge*). Anda dapat mematikannya melalui dashboard Netlify:
+1. Masuk ke **[app.netlify.com](https://app.netlify.com/)** dan pilih situs Anda.
+2. Buka menu **Site configuration** (atau **Site settings**).
+3. Pilih **General** > cari bagian **Powered by Netlify badge**, lalu ubah posisinya ke **Off** (Nonaktif).
+4. Jika masih muncul (sebagai *Netlify Drawer / Collaboration Tools*):
+   - Masuk ke **Site configuration** > **Continuous deployment** > **Collaboration tools**.
+   - Klik **Configure**, hilangkan centang pada opsi **Netlify Drawer** (untuk Deploy Previews / Branch deploys), lalu klik **Save**.
+
+
